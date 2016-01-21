@@ -41,3 +41,5 @@
 
 ##【FAQ】
 
+##参考文档
+http://code.openark.org/blog/mysql/timestamp-vs-datetime-which-should-i-be-using
