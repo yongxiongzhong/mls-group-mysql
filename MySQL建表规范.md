@@ -43,7 +43,11 @@
 
 ##参考文档
 http://dev.mysql.com/doc/refman/5.5/en/data-types.html
+
 http://code.openark.org/blog/mysql/timestamp-vs-datetime-which-should-i-be-using
+
 http://www.databaseskill.com/4069474/
+
 http://www.infoq.com/cn/presentations/wsz-mysql-development/
+
 <<美丽说数据库规范v0.1>>
