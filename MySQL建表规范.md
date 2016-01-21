@@ -40,7 +40,12 @@
 
 
 ##【FAQ】
-
+###如何使用 INT UNSIGNED 存储 ip?
+使用 INT UNSIGNED 而不是 char(15)来存储 ipv4 地址,通过 MySQL 函数 inet_ntoa 和 inet_aton 来进行
+转化。Ipv6 地址目前没有转化函数,需要使用 DECIMAL 或者两个 bigINT 来存储。例如: SELECT INET_ATON('209.207.224.40');
+3520061480
+SELECT INET_NTOA(3520061480);
+209.207.224.40
 ##参考文档
 http://dev.mysql.com/doc/refman/5.5/en/data-types.html
 
